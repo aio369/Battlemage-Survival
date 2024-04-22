@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7867bae2e7542a46938965f3f819725, type: 3}
+  m_Name: Slash WeaponUpgrade (Double Strike)
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Name: Extra Attack
+  description: Attacks an extra time.
+  icon: {fileID: -160606036, guid: c7e62818af3cd0349b0408f135335c74, type: 3}
+  weaponData: {fileID: 11400000, guid: 5012ce5244cb8d241bb44f4ae9d87774, type: 2}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    numberOfAttacks: 1
+    numberOfHits: 0
+    projectileSpeed: 0
+    stun: 0
+    knockback: 0
+    knockbackTimeWeight: 0
+  item: {fileID: 0}
+  itemStats:
+    armor: 0

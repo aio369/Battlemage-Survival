@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f7ec04c1ab7db40a5e1509422e3c9b, type: 3}
+  m_Name: Stage ! Data 1
+  m_EditorClassIdentifier: 
+  stageEvents:
+  - eventType: 0
+    time: 1
+    message: 
+    enemyToSpawn: {fileID: 11400000, guid: 2a16121952096b94387ce425620aea07, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 6
+    isRepeatedEvent: 1
+    repeatEverySeconds: 3
+    repeatCount: 99999
+  - eventType: 0
+    time: 30
+    message: 
+    enemyToSpawn: {fileID: 11400000, guid: 50df2104c4fe7544c9cf8a7faebea699, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 9
+    isRepeatedEvent: 1
+    repeatEverySeconds: 4
+    repeatCount: 9999
+  - eventType: 0
+    time: 60
+    message: Treasure
+    enemyToSpawn: {fileID: 11400000, guid: 4f53793854afb5141965dc510fec4de7, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 12
+    isRepeatedEvent: 1
+    repeatEverySeconds: 5
+    repeatCount: 9999
+  - eventType: 1
+    time: 60
+    message: Treasure
+    enemyToSpawn: {fileID: 11400000, guid: 3eb38a2478a08bf44a043925b9c7ef25, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 1
+    isRepeatedEvent: 1
+    repeatEverySeconds: 60
+    repeatCount: 9999
+  stageID: Stage 1 Complete
+  stageCompletionToUnlock: []

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7867bae2e7542a46938965f3f819725, type: 3}
+  m_Name: Energy Wave (knockback)
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Name: Knockback
+  description: 
+  icon: {fileID: 26892425, guid: c7e62818af3cd0349b0408f135335c74, type: 3}
+  weaponData: {fileID: 11400000, guid: f19996f5c6dcb6d42a3b3b63120a6372, type: 2}
+  weaponUpgradeStats:
+    timeToAttack: 0
+    numberOfAttacks: 0
+    numberOfHits: 10
+    projectileSpeed: 0
+    stun: 0
+    knockback: 1
+    knockbackTimeWeight: 5
+    attackAreaSize: 0
+    minDamage: 1
+    maxDamage: 2
+  item: {fileID: 0}
+  itemStats:
+    armor: 0

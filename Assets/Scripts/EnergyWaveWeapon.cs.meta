@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2e39ebbad00162e4d8e3eabfd9f2a0a9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerMove: {instanceID: 0}
+  - weaponData: {instanceID: 0}
+  - knifePrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7867bae2e7542a46938965f3f819725, type: 3}
+  m_Name: EField Acquire
+  m_EditorClassIdentifier: 
+  upgradeType: 2
+  Name: Energy Field
+  description: 
+  icon: {fileID: -2035435056, guid: e5ec5646ac221824aaa783ddb6045a5b, type: 3}
+  weaponData: {fileID: 11400000, guid: 0212c77c3fba98d45b122a78af321230, type: 2}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    numberOfAttacks: 0
+    numberOfHits: 0
+    projectileSpeed: 0
+    stun: 0
+    knockback: 0
+    knockbackTimeWeight: 0
+  item: {fileID: 0}
+  itemStats:
+    armor: 0

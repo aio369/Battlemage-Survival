@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f7ec04c1ab7db40a5e1509422e3c9b, type: 3}
+  m_Name: Stage ! Data 2
+  m_EditorClassIdentifier: 
+  stageEvents:
+  - eventType: 0
+    time: 1
+    message: 
+    enemyToSpawn: {fileID: 11400000, guid: 50df2104c4fe7544c9cf8a7faebea699, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+    isRepeatedEvent: 1
+    repeatEverySeconds: 1
+    repeatCount: 300
+  - eventType: 0
+    time: 10
+    message: 
+    enemyToSpawn: {fileID: 11400000, guid: 50df2104c4fe7544c9cf8a7faebea699, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+    isRepeatedEvent: 1
+    repeatEverySeconds: 1
+    repeatCount: 300
+  - eventType: 0
+    time: 30
+    message: 
+    enemyToSpawn: {fileID: 11400000, guid: 50df2104c4fe7544c9cf8a7faebea699, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+    isRepeatedEvent: 1
+    repeatEverySeconds: 1
+    repeatCount: 300
+  stageID: Stage 2 Complete
+  stageCompletionToUnlock:
+  - Stage 1 Complete

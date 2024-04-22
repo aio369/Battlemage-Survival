@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bedfce5703b82847963b6d3d0a2f2f2, type: 3}
+  m_Name: EnergyWave
+  m_EditorClassIdentifier: 
+  Name: Energy Wave
+  description: 
+  stats:
+    timeToAttack: 4
+    numberOfAttacks: 1
+    numberOfHits: 30
+    projectileSpeed: 6
+    stun: 0
+    knockback: 1
+    knockbackTimeWeight: 0.1
+    attackAreaSize: 0
+    minDamage: 5
+    maxDamage: 15
+  weaponBasePrefab: {fileID: 8303697586282735385, guid: cbf4e08a1ef763243ae0f542485f6696, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: b179b75acfb9bb74bbae5289d7cd395b, type: 2}
+  - {fileID: 11400000, guid: ff77bc2d4647f0f459b2d2f2f2071c95, type: 2}
+  - {fileID: 11400000, guid: ff77bc2d4647f0f459b2d2f2f2071c95, type: 2}
+  - {fileID: 11400000, guid: ab6ac4b9167ef544882467bb9d077adf, type: 2}
+  - {fileID: 11400000, guid: ab6ac4b9167ef544882467bb9d077adf, type: 2}
+  - {fileID: 11400000, guid: a8adbd0b13804544b946ca60490cf1f6, type: 2}
+  - {fileID: 11400000, guid: 2a3ae024e4a88274ab924a35a89d3728, type: 2}
+  attackAreaSize: 0
